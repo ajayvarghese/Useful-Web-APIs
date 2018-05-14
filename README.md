@@ -95,7 +95,7 @@ navigator.vibrate(0)
 ```
 
 ### Ambient Light
-Exposes sensor data which uses light intensity. Can be used to identify whether its dark or cloud.
+Exposes sensor data which uses light intensity. Can be used to identify whether its dark or bright.
 ```sh
 window.addEventListener('devicelight', e => {
     console.log(e.value, ' lux');
